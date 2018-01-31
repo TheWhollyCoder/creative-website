@@ -1,0 +1,33 @@
+/*==================================
+  Default Theme
+  ----------------------------------
+  Fonts: Raleway & Open Sans
+  ----------------------------------
+  Colors:
+    Moon Yellow:  #f4c613
+    Grey:         #212226
+    White Smoke:  #f4f4f4
+    White:        #fff
+    Black:        #000
+
+====================================*/
+
+
+/*==================================
+|   |   |    |    Preloader
+====================================*/
+#preloader{
+    background-color: #212226;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+#status{
+    background-image: url("../images/preloader/preloader.gif");
+    background-repeat: no-repeat;
+    position: absolute;
+    
+}
